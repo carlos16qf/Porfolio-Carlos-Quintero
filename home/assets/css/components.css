@@ -1,0 +1,23 @@
+/* navigation */
+.main-nav {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    color: gray;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 4px;
+}

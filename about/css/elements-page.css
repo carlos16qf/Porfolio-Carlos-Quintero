@@ -1,0 +1,148 @@
+/* Resest */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* navigation */
+.main-nav {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    color: gray;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 4px;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+/* center my skill */
+.padding{
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex-direction-colum{
+    flex-direction: column;
+}
+
+@media(min-width: 768px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .col-md-4 {
+        width: 33.333%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-8 {
+        width: 66.666%;
+    }
+    
+}
+
+/* @media(min-width: 900px){
+    .col-lg-4 {
+        width: 33%;
+    }
+}  */
+/* Fonts */
+.text-primary {
+    color: #293DCB;
+}
+.text-secundary {
+    color: #919191;
+}
+.text-center {
+    text-align: center;
+}
+/* Position */
+
+.position-relative {
+    position: relative;
+}
+
+/* progress bar */
+.progress-container {
+    border-radius: 10px;
+    background-color: silver;
+}
+.progress {
+    height: 0.5rem;
+    background-color: rgb(67, 202, 39);
+    border-radius: 10px;
+    width: 1%;
+}
+
+.progress.percent-84{
+    width: 84%;
+}
+
+.progress.percent-78{
+    width: 78%;
+}
+
+.progress.percent-65{
+    width: 65%;
+}
+
+.progress.percent-60 {
+    width: 60%;
+}
+
+.progress.percent-1{
+    width: 1%;
+}
+
+
+.space-top-lg {
+    margin-top: 30px;
+}
+
+
+p {
+    margin-top: 10px;
+}
